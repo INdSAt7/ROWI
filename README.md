@@ -49,6 +49,9 @@ from scipy.interpolate import interp1d
 from scipy.integrate import quad
 from sklearn.metrics import roc_curve, auc, roc_auc_score
 from matplotlib import pyplot as plt
+from lifelines import KaplanMeierFitter
+import plotly.graph_objects as go
+import plotly.figure_factory as ff
 %matplotlib inline
 ```
 
