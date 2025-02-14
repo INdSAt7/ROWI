@@ -113,8 +113,9 @@ pip install -r requirements.txt
 
 ### Развертывание Телеграм-бота
 1. Создайте бота в **BotFather** и получите `TOKEN`.
-2. Укажите `TOKEN` в коде бота.
-3. Запустите бота:
+2. Укажите `TOKEN` в config.py.
+3. Укажите APIKEY в config.py с сайта **URL:** `https://v6.exchangerate-api.com/`
+4. Запустите бота:
 ```bash
 python run.py
 ```
