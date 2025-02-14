@@ -116,7 +116,7 @@ pip install -r requirements.txt
 2. Укажите `TOKEN` в коде бота.
 3. Запустите бота:
 ```bash
-python bot.py
+python run.py
 ```
 
 ---
